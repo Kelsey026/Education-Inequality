@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Base styles */
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.65;
+  color: #4d5157;
+  background-color: #f3f4f6; 
+  padding-bottom: 2rem;
+}
+
+/* Hero section */
+.hero {
+  background-color: #455370;
+  color: #ffffff;
+  padding: 4rem 1rem 3.5rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.75rem;
+  font-weight: 700;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.subtitle {
+  margin-top: 0.75rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+/* Main container */
+.container {
+  max-width: 900px;
+  margin: 3.5rem auto;
+  padding: 0 1.5rem;
+}
+
+/* Section styling */
+section {
+  padding: 2rem 0;
+  border-bottom: 1px solid #d1d5db; 
+}
+
+section:last-of-type {
+  border-bottom: none; 
+}
+
+/* Headings */
+h2 {
+  color: #1f2937;  
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  color: #374151;  
+  font-size: 1.15rem;
+  margin-top: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Paragraphs */
+p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  max-width: 75ch; /* easy-to-read line length */
+}
+
+/* Lists */
+ul,
+ol {
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+li {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #e5e7eb; 
+  font-size: 0.9rem;
+  color: #374151;
+}

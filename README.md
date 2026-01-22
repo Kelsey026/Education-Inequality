@@ -6,6 +6,10 @@ This project analyzes changes in **median earnings, unemployment rates, and educ
 
 The goal was to create a **clean, analysis-ready dataset** and develop an **interactive Tableau dashboard** to communicate trends in education-driven inequality. 
 
+## Project Links
+- **Project Website:** [View full project website]( https://kelsey026.github.io/Education-Inequality/)
+- **Tableau Dashboard:** [View on Tableau Public](https://public.tableau.com/views/metro_17676705646720/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 ## Skills & Tools
 - **Data Cleaning:** Google Sheets  
 - **Public Data Analysis:** U.S. Census Bureau  

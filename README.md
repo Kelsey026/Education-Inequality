@@ -7,8 +7,7 @@ This project analyzes changes in **median earnings, unemployment rates, and educ
 The goal was to create a **clean, analysis-ready dataset** and develop an **interactive Tableau dashboard** to communicate trends in education-driven inequality. 
 
 ## Project Links
-- **Project Website:** [View full project website]( https://kelsey026.github.io/Education-Inequality/)
-- **Tableau Dashboard:** [View on Tableau Public](https://public.tableau.com/views/metro_17676705646720/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+- **Project Website:** [View interactive dashboard and full project write-up](https://kelsey026.github.io/Education-Inequality/)
 
 ## Skills & Tools
 - **Data Cleaning:** Google Sheets  
@@ -29,3 +28,20 @@ The goal was to create a **clean, analysis-ready dataset** and develop an **inte
   3. Change in Educational Attainment in U.S. Metropolitan Areas
 - **Filters:** Education levels (Less than High School, High School Graduate, Some College/Associate, Bachelor’s or Higher)  
 - Hover over metropolitan areas to view detailed statistics
+
+  
+## Key Insights
+- Metropolitan areas with higher levels of **bachelor’s degree attainment** experienced larger increases in median earnings between 2010 and 2023.
+- **Unemployment rates declined more** for individuals with less than high school diplomas, while higher-education groups exhibited slow declines in unenployment rates.
+- Almost all metropolitan areas saw growth in **postsecondary educational attainment**.
+
+
+
+
+
+
+
+
+
+
+

@@ -12,80 +12,90 @@
 
 <body>
   <header class="hero">
-    <h1>Education Inequality Trends Across U.S. Metropolitan Areas</h1>
+    <h1>Education, Income, and Employment Trends Among U.S. Adults</h1>
+      <p class="subtitle">Adults Age 25 & Older (2010-2023)</p>
   </header>
 
   <main class="container">
+
     <section>
       <h2>Project Overview</h2>
       <p>
-        In this micro-internship, I worked with publicly available data 
-        from the U.S. Census Bureau to create a cleaned CSV dataset in 
-        Google Sheets, to be used in Tableau public to create simple 
-        interactive dashboards that can be used for teaching Economics of 
-        Inequality and publicly communicate inequality trends.
+        In my micro-internship, I was assigned the task of picking a topic of economics of 
+        inequality and illustrating any type of inequality trends across major U.S. metropolitan 
+        areas. Therefore, I decided to explore on education inequality, specifically how median 
+        earnings, unemployment rates, and educational attainment shaped economic opportunities 
+        between the years 2010 and 2023. Using publicly available data from the U.S. Census Bureau,
+        I cleaned and organized the data to create a CSV dataset and used it to make a simple 
+        interactive dashboard.
       </p>
+
     </section>
+      <h2>Data</h2>
+        <ul>
+          <li><strong>Population:</strong> Adults aged 25+ </li>
+          <li><strong>Geography:</strong> U.S. Metropolitan Areas  </li>
+          <li><strong>Years:</strong> 2010 and 2023 </li>
+          <li><strong>Categories:</strong> Educational attainment, median earnings, unemployment </li>
+        </ul>
 
     <section>
-      <h2>Skills</h2>
-      <ul>
-        <li>Data visualization (Tableau Public)</li>
-        <li>Data cleaning and organization</li>
-        <li>Public data analysis</li>
-      </ul>
+
     </section>
 
     <section>
     <h2>Methodology</h2>
       <ol>
         <li>
-          <strong>Data Sources:</strong> The data was collected from the U.S. Census Bureau for adults aged 25 and older, covering educational attainment, median earnings, and unemployment rates for 2010 and 2023.
+          <strong>Data Collection:</strong> Retrieved publicly available data from the U.S. Census Bureau for adults aged 25 and older, 
+          covering educational attainment, median earnings, and unemployment rates for the years 2010 and 2023 across U.S. metropolitan 
+          statistical areas (MSAs).
         </li>
         <li>
-          <strong>Data Cleaning and Preparation:</strong> The data was organized so all metropolitan areas and education levels could be compared.
+          <strong>Data Preparation:</strong> Cleaned datasets to ensure all metropolitan areas and education levels could be compared.
         </li>
         <li>
-          <strong>Calculation of Differences:</strong> For each metric, the change over time was calculated as 2023 minus 2010.
+          <strong>Metric Calculation:</strong> Computed the absolute change for each metric by subtracting 2010 values from 2023 values 
+          to analyze trends over time.
         </li>
         <li>
-          <strong>Geographic Consistency:</strong> The same metropolitan areas were used throughout all three maps.
+          <strong>Visualization Development:</strong> Built Tableau Public worksheets for educational attainment, earnings, and 
+          unemployment.
         </li>
         <li>
-          <strong>Visualization:</strong> The interactive dashboard displays differences across metropolitan areas, with color scales representing the magnitude and direction of change.
+          <strong>Dashboard Design:</strong> Developed an interactive dashboard using color-encoded geographic maps to represent the 
+          magnitude and direction of change.
         </li>
       </ol>
     </section>
 
     <section>
-      <h2>User Guide for Dashboard</h2>
-      <p>This dashboard allows users to explore changes in education, earnings, and 
-        unemployment among adults aged 25 and older across U.S. metropolitan areas 
-        between 2010 and 2023.</p>
-    <h3>How to Use the Dashboard</h3>
-    <ol>
-      <li>
-        <strong>Select a Map:</strong> Choose one of the three maps:
-        <ul>
-          <li>Change in Median Earnings by Education Level Across U.S. Metropolitan Areas</li>
-          <li>Change in Unemployment Rate by Education Level Across U.S. Metropolitan Areas</li>
-          <li>Change in Educational Attainment by Education Level Across U.S. Metropolitan Areas</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Select an Education Level:</strong> Choose one of the four education levels:
-        <ul>
-          <li>Less than High School</li>
-          <li>High School Graduate</li>
-          <li>Some College & Associate's Degree</li>
-          <li>Bachelor's Degree or Higher</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Explore Metro Areas:</strong> Hover over any metropolitan area to see detailed values.
-      </li>
-    </ol>
-    </section>
+  <h2>User Guide for Dashboard</h2>
+  <ol>
+    <li>
+      <strong>Select a Map:</strong>
+      <ul>
+        <li>Change in Median Earnings by Education Level Across U.S. Metropolitan Areas</li>
+        <li>Change in Unemployment Rate by Education Level Across U.S. Metropolitan Areas</li>
+        <li>Change in Educational Attainment Across U.S. Metropolitan Areas</li>
+      </ul>
+    </li>
+
+    <li>
+      <strong>Select an Education Level:</strong>
+      <ul>
+        <li>Less than High School</li>
+        <li>High School Graduate</li>
+        <li>Some College or Associate’s Degree</li>
+        <li>Bachelor’s Degree or Higher</li>
+      </ul>
+    </li>
+
+    <li>
+      <strong>Explore Metropolitan Areas:</strong> Hover over a metro area to view detailed statistics.
+    </li>
+  </ol>
+</section>
 
     <section>
       <h2>Key Findings</h2>
@@ -125,15 +135,28 @@
       scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                   
       vizElement.parentNode.insertBefore(scriptElement, vizElement);                
       </script>
-  
+    
+    <section>
+      <h3>Map 1: Change in Median Earnings by Education Level Across U.S. Metropolitan Areas</h3>
+        <p>This visualization examines changes in median earnings from 2023 to 2010 across U.S. 
+          metropolitan areas by education level. In the map, it's evident that those with higher 
+          attainment of education received a larger increase in median earnings from 2010 to 2023. 
+          In contrast, those with no high school diploma or those who do have a high school diploma 
+          experience a slower increase in median earnings. For instance, many metropolitan areas in 
+          California experienced a seventy to one-hundred thousand dollar increase in median earnings 
+          for people with a bachelor's degree or higher, while other metropolitan areas around the U.S. 
+          experienced smaller increases in earnings. This suggests that there is a stronger demand for 
+          skilled labor in some regions than others.</p>
+      <h3>Map 2: Change in Unemployment Rate by Education Level Across U.S. Metropolitan Areas</h3>
+        <p></p>
+      <h3>Map 3: Change in Educational Attainment Across U.S. Metropolitan Areas</h3>
+        <p></p>
     </section>
 
-    
   </main>
 
   <footer>
-    <p>© 2026 Kelsey Eras</p>
+    <p>© 2026 Kelsey Eras | Micro-Internship</p>
   </footer>
 </body>
 </html>
-

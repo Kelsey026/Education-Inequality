@@ -18,3 +18,10 @@ The goal was to create a **clean, analysis-ready dataset** and develop an **inte
 - **Years:** 2010 and 2023  
 - **Metrics:** Educational attainment, median earnings, unemployment
 
+## Dashboard Features
+- **Three Interactive Maps:**  
+  1. Change in Median Earnings by Education Level Across U.S. Metropolitan Areas
+  2. Change in Unemployment Rate by Education Level Across U.S. Metropolitan Areas
+  3. Change in Educational Attainment in U.S. Metropolitan Areas
+- **Filters:** Education levels (Less than High School, High School Graduate, Some College/Associate, Bachelor’s or Higher)  
+- Hover over metropolitan areas to view detailed statistics

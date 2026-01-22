@@ -29,7 +29,7 @@ This project analyzes changes in **median earnings, unemployment rates, and educ
 ## Key Findings
 - Metropolitan areas with higher levels of **bachelor’s degree attainment** experienced larger increases in median earnings between 2010 and 2023.
 - **Unemployment rates declined more** for individuals with less than high school diplomas, while higher-education groups exhibited slow declines in unemployment rates.
-- Almost all metropolitan areas saw growth in **postsecondary educational attainment**.
+- Almost all metropolitan areas saw growth in **higher education**.
 
 
 

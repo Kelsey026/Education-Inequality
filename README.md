@@ -3,7 +3,7 @@
 ## Overview
 This project analyzes changes in **median earnings, unemployment rates, and educational attainment** across U.S. metropolitan areas between 2010 and 2023 using data from the ***U.S. Census Bureau***. The goal was to create **clean datasets** that can be used to develop an **interactive Tableau dashboard** that illustrates education inequality trends. 
 
-## Project Links
+## Project Link
 - **Project Website:** [View interactive dashboard and Findings](https://kelsey026.github.io/Education-Inequality/)
 
 ## Skills & Tools

@@ -90,8 +90,25 @@ li {
 /* Footer */
 footer {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   padding: 1.5rem;
-  background-color: #e5e7eb; 
+  background-color: #e5e7eb;
   font-size: 0.9rem;
   color: #374151;
+}
+
+/* TABLEAU MAP  */
+.tableauPlaceholder {
+  display: flex;              
+  justify-content: center;    
+  margin: 2rem 0;            
+}
+
+.tableauPlaceholder object,
+.tableauPlaceholder iframe {
+  max-width: 100%;          
+  display: block;             
 }

@@ -25,7 +25,7 @@ body {
   font-size: 2.75rem;
   font-weight: 700;
   max-width: 900px;
-  margin: 0 auto 0.25rem; 
+  margin: 0 auto 0.25rem; /* added bottom margin for subtitle spacing */
 }
 
 .subtitle {
@@ -33,8 +33,8 @@ body {
   font-size: 1.1rem;
   font-weight: 400;
   opacity: 0.9;
-  text-align: center;  
-  max-width: none;    
+  text-align: center;  /* centers subtitle text */
+  max-width: none;     /* removes max-width restriction from general p styling */
 }
 
 /* Main container */
@@ -72,7 +72,7 @@ h3 {
 p {
   font-size: 1rem;
   margin-bottom: 1rem;
-  max-width: 75ch; 
+  max-width: 75ch; /* easy-to-read line length */
 }
 
 /* Lists */
@@ -90,25 +90,8 @@ li {
 /* Footer */
 footer {
   text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   padding: 1.5rem;
-  background-color: #e5e7eb;
+  background-color: #e5e7eb; 
   font-size: 0.9rem;
   color: #374151;
-}
-
-/* TABLEAU MAP  */
-.tableauPlaceholder {
-  display: flex;              
-  justify-content: center;    
-  margin: 2rem 0;            
-}
-
-.tableauPlaceholder object,
-.tableauPlaceholder iframe {
-  max-width: 100%;          
-  display: block;             
 }

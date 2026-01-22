@@ -1,5 +1,4 @@
 # Education, Income, and Employment Trends Among U.S. Adults | Adults Aged 25 and Older (2010-2023)
-**Micro-Internship | Data Visualization**
 
 ## Overview
 This project analyzes changes in **median earnings, unemployment rates, and educational attainment** across U.S. metropolitan areas between 2010 and 2023 using data from the ***U.S. Census Bureau***. The goal was to create **clean datasets** that can be used to develop an **interactive Tableau dashboard** that illustrates education inequality trends. 
@@ -26,7 +25,6 @@ This project analyzes changes in **median earnings, unemployment rates, and educ
   3. Change in Educational Attainment in U.S. Metropolitan Areas
 - **Filter:** Education levels (Less than High School, High School Graduate, Some College & Associate, Bachelor’s or Higher)  
 - Hover over metropolitan areas to view detailed statistics
-
   
 ## Key Findings
 - Metropolitan areas with higher levels of **bachelor’s degree attainment** experienced larger increases in median earnings between 2010 and 2023.

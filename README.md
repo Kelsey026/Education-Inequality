@@ -31,13 +31,4 @@ This project analyzes changes in **median earnings, unemployment rates, and educ
 - **Unemployment rates declined more** for individuals with less than high school diplomas, while higher-education groups exhibited slow declines in unemployment rates.
 - Almost all metropolitan areas saw growth in **higher education**.
 
-
-
-
-
-
-
-
-
-
-
+(This project was completed as part of a micro-internship under the supervision of Professor Agu)
